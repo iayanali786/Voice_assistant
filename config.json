@@ -1,0 +1,32 @@
+{
+  "user_name": "there",
+
+  "weather": {
+    "api_key": "PUT_YOUR_OPENWEATHERMAP_KEY_HERE",
+    "default_city": "Lucknow"
+  },
+
+  "email": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_address": "your_test_account@gmail.com",
+    "sender_app_password": "PUT_YOUR_16_CHAR_APP_PASSWORD_HERE"
+  },
+
+  "knowledge_base": {
+    "who made you": "I was built as a Python voice assistant project using speech_recognition and pyttsx3.",
+    "what is python": "Python is a high level, general purpose programming language known for readable syntax.",
+    "what can you do": "I can tell the time, search the web, send emails, set reminders, check the weather and answer simple questions."
+  },
+
+  "custom_commands": {
+    "open youtube": {
+      "action": "open_url",
+      "value": "https://www.youtube.com"
+    },
+    "open github": {
+      "action": "open_url",
+      "value": "https://www.github.com"
+    }
+  }
+}
